@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: micronautKafka
+    name: product
 kafka.bootstrap.servers: localhost:9092
 netty:
   default:

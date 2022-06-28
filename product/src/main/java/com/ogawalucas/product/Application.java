@@ -1,4 +1,4 @@
-package com.ogawalucas;
+package com.ogawalucas.product;
 
 import io.micronaut.runtime.Micronaut;
 

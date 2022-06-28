@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ogawalucas</groupId>
-  <artifactId>micronaut-kafka</artifactId>
+  <artifactId>product</artifactId>
   <version>1.0.0</version>
   <packaging>${packaging}</packaging>
 
@@ -19,7 +19,7 @@
     <release.version>17</release.version>
     <micronaut.version>3.5.2</micronaut.version>
     <micronaut.runtime>netty</micronaut.runtime>
-    <exec.mainClass>com.ogawalucas.Application</exec.mainClass>
+    <exec.mainClass>com.ogawalucas.product.Application</exec.mainClass>
   </properties>
 
   <repositories>
@@ -95,7 +95,7 @@
           </annotationProcessorPaths>
           <compilerArgs>
             <arg>-Amicronaut.processing.group=com.ogawalucas</arg>
-            <arg>-Amicronaut.processing.module=micronaut-kafka</arg>
+            <arg>-Amicronaut.processing.module=product</arg>
           </compilerArgs>
         </configuration>
       </plugin>
